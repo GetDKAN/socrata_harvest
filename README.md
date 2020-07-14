@@ -1,6 +1,6 @@
 ## Socrata Harvest
 
-This module will fill in required POD values where they are missing when harvesting from a Socrata data catalog.
+This module will fill in required [POD](https://project-open-data.cio.gov/v1.1/schema/) values if they are missing when harvesting from a Socrata data catalog. Ideally these values should be replaced with useful information from the data provider.
 
 ## Install
 
