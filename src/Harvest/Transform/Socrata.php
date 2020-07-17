@@ -34,6 +34,11 @@ class Socrata extends Transform {
       $publisher->name = $publisher->source;
     }
 
+    // Adjust contact email.
+    if (isset($item->hasEmail) && substr($item->hasEmail, 0, 7) !== "mailto:") {
+      $item->hasEmail = "mailto:" . $item->hasEmail;
+    }
+
     // Add titles for csv distributions.
     if ($item->distribution) {
       foreach ($item->distribution as $key => $dist) {
