@@ -3,6 +3,7 @@
     "description": "Optional DKAN module to harvest from Socrata catalogs.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Janette Day",
