@@ -1,0 +1,13 @@
+{
+    "name": "getdkan/socrata_harvest",
+    "description": "Optional DKAN module to harvest from Socrata catalogs.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Janette Day",
+            "email": "janette.day@civicactions.com"
+        }
+    ],
+    "require": {}
+}
