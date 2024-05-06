@@ -1,7 +1,7 @@
 name: Socrata Harvest
 description: 'Helper module to fill in missing POD values.'
 type: module
-core: 8.x
+core_version_requirement: ">=8"
 dependencies:
   - harvest
 package: DKAN
